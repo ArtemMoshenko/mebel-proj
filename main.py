@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import render_template
 
 app = Flask(__name__)
 
@@ -10,6 +11,10 @@ def index():
 @app.route('/index')
 def index2():
     return "И на Марсе будут яблони цвести!"
+
+@app.route('/promotion')
+def index3():
+    return render_template("promotion.html")
 
 
 if __name__ == '__main__':
