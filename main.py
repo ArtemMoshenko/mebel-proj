@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+from flask import url_for
 
 app = Flask(__name__)
 
@@ -16,6 +17,9 @@ def index2():
 def index3():
     return render_template("promotion.html")
 
+@app.route('/image_sample')
+def image():
+    return render_template("image_sample.html")
 
 if __name__ == '__main__':
     app.run(port=8080, host='127.0.0.1')
