@@ -18,8 +18,12 @@ def index3():
     return render_template("promotion.html")
 
 @app.route('/image_sample')
-def image():
+def image4():
     return render_template("image_sample.html")
+
+@app.route('/promotion_image')
+def image5():
+    return render_template("promotion_image.html")
 
 if __name__ == '__main__':
     app.run(port=8080, host='127.0.0.1')
