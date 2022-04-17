@@ -1,21 +1,55 @@
 h1 {
-  font-family: "Georgia", serif;
+  font-family: "SEGOE SCRIPT", serif;
   text-align: center;
   color: black;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #f16d3f;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
 }
+
 
 h2 {
   font-family: "Georgia", serif;
   text-align: center;
-  color: black;
+  color: yellow;
 }
+
 
 form.login_form {
     margin-left: auto;
     margin-right: auto;
-    max-width: 450px;
     background-color: #f16d3f;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 10px;
+
 }
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    background-color: #dbd7d2;
+    border: 5px solid grey;
+    border-radius: 25px;
+    padding: 30px;
+
+}
+
+label {
+    text-color: red;
+    bs-info-rgb: 13, 202, 240;
+}
+
+button {
+    button-align: center;
+}
+
+img {
+    width: 150px;
+    height: 700px;
+}
+
