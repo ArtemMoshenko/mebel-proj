@@ -1,0 +1,39 @@
+h3{
+    color: grey;
+}
+
+
+.block1{
+    max-width: auto;
+    background-color: #1c110f;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #999093;
+}
+
+.block2{
+    max-width: auto;
+    background-color: #ebebeb;
+    padding: 30px;
+    color: #999093;
+
+}
+
+.img-fluid{
+ margin-left: 5px;
+ margin-right: 5px;
+ img-align: center;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+.material{
+ border-radius: 31px;
+ width: 150px;
+ height: 270px;
+ margin-right: 8.21px;
+}
+
+
+
